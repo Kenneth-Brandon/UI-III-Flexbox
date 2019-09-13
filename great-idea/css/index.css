@@ -72,10 +72,14 @@ h1, h2, h3, h4, h5 {
   /* header */
   
   header nav {
-	display: inline-block;
+	/* display: inline-block; */
+	display: inline-flex;
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
   }
   
   header nav a {
@@ -104,12 +108,16 @@ h1, h2, h3, h4, h5 {
   /* cta */
   
   .cta .cta-text {
-	display: inline-block;
+	/* display: inline-block; */
 	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
 	text-align: center;
 	padding: 0px 75px;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
   }
   
   .cta .cta-text button {
@@ -128,8 +136,11 @@ h1, h2, h3, h4, h5 {
   }
   
   .cta img {
-	display: inline-block;
+	/* display: inline-block; */
 	margin-top: 69px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
   }
   
   .main-content {
@@ -144,8 +155,12 @@ h1, h2, h3, h4, h5 {
   
   .main-content .top-content .text-content {
 	width: 410px;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 34px;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: flex-start;
   }
   
   .main-content .top-content .text-content:last-child {
@@ -163,8 +178,12 @@ h1, h2, h3, h4, h5 {
   
   .main-content .bottom-content .text-content {
 	width: 275px;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 12px;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: flex-start;
   }
   
   .main-content .bottom-content .text-content:last-child {
